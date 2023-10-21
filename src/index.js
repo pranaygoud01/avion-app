@@ -8,7 +8,12 @@ import Register from "./pages/Register";
 import Product from "./pages/Product";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  HashRouter,
+  Outlet,
+  RouterProvider,
+} from "react-router-dom";
 import Cart from "./pages/Cart";
 import Collection from "./pages/Collection";
 
@@ -61,6 +66,8 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <HashRouter>
+      <RouterProvider router={router} />
+    </HashRouter>
   </React.StrictMode>
 );
