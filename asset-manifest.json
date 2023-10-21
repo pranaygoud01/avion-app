@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/avion-app/static/css/main.b4529978.css",
-    "main.js": "/avion-app/static/js/main.ff95ed16.js",
+    "main.js": "/avion-app/static/js/main.b9ebce53.js",
     "index.html": "/avion-app/index.html",
     "main.b4529978.css.map": "/avion-app/static/css/main.b4529978.css.map",
-    "main.ff95ed16.js.map": "/avion-app/static/js/main.ff95ed16.js.map"
+    "main.b9ebce53.js.map": "/avion-app/static/js/main.b9ebce53.js.map"
   },
   "entrypoints": [
     "static/css/main.b4529978.css",
-    "static/js/main.ff95ed16.js"
+    "static/js/main.b9ebce53.js"
   ]
 }
